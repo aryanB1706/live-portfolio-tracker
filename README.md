@@ -1,4 +1,4 @@
-# Dynamic Portfolio Dashboard — OctaByte Full-Stack Intern Assignment
+# Live Portfolio Tracker — Real-Time NSE/BSE Portfolio Dashboard
 
 > Real-time portfolio tracker that fetches live stock data from Yahoo Finance (CMP) and Google Finance (P/E, Earnings) with sector analytics, built with **React 19 + Vite + TypeScript + Tailwind** & **Node.js + Express**.
 
@@ -64,7 +64,7 @@
 ## Project Structure
 
 ```
-8byte/
+live-portfolio-tracker/
 ├── client/
 │   ├── src/
 │   │   ├── components/
@@ -108,8 +108,8 @@
 ### 1. Clone
 
 ```bash
-git clone https://github.com/aryanB1706/8byte_assignment.git
-cd 8byte
+git clone https://github.com/aryanB1706/live-portfolio-tracker.git
+cd live-portfolio-tracker
 ```
 
 ### 2. Server
@@ -225,4 +225,4 @@ curl http://localhost:5000/api/portfolio | python3 -c "import json,sys; d=json.l
 
 ## License
 
-Assignment for OctaByte AI Pvt Ltd — educational.
+Educational project — built as a full-stack assignment.
